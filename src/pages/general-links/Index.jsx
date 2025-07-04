@@ -36,11 +36,17 @@ function GeneralLinksForm() {
         <Form.Item label="Link tải app" name="linkApp">
           <Input placeholder="Điền link tải app" />
         </Form.Item>
+        <Form.Item label="Link tải app live" name="linkAppLive">
+          <Input placeholder="Điền link tải app live" />
+        </Form.Item>
         <Form.Item label="Link nhận code" name="linkCode">
           <Input placeholder="Điền link nhận code" />
         </Form.Item>
         <Form.Item label="Link telegram phát code" name="linkTelegramCode">
-          <Input placeholder="Điền lin telegram phát code" />
+          <Input placeholder="Điền link telegram phát code" />
+        </Form.Item>
+        <Form.Item label="Link cskh" name="linkCskh">
+          <Input placeholder="Điền link cskh" />
         </Form.Item>
         <Form.Item className="flex justify-end">
           <button
